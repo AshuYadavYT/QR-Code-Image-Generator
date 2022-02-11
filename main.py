@@ -1,8 +1,6 @@
-from ast import Import
 import pyqrcode
-import png
 from pyqrcode import QRCode
-import random, secrets
+import secrets
 
 
 def qrstart():

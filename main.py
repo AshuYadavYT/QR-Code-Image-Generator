@@ -9,7 +9,7 @@ def qrstart():
     
     def qr_generate():
         url = pyqrcode.create(link)
-        qr_img = f"qrcodes/{secrets.token_urlsafe(6)}.png"
+        qr_img = f"qrimages/{secrets.token_urlsafe(6)}.png"
         url.png(qr_img, scale=6)
         print(f"You're QR Image is saved in qrimages folder")
     qr_generate()
